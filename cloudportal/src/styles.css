@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  /* width: 1000px;   */
+}
+
+.cloud-image {
+  background: #1f5f54;
+    /* width: 1000px; */
+    /* height: 1000px; */
+    /* background-image: url(download.jpg);
+    background-size: cover;
+    image-resolution: url(chandra.jpg);
+    shape-image-threshold: cover;
+    image-resolution: url(sridevi.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    
+}

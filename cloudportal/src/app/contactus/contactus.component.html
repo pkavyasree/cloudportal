@@ -1,0 +1,35 @@
+<form id="contact-form" method="post" [hidden]="resp">
+		<div class="row m-t-20" style="text-align: left;">
+		<div class="col-md-9"></div>
+		<h4><b><span style="color:gold">Get in Touch:</span></b></h4>
+		</div>
+			<h4><b></b></h4>
+			<h4><b><span style="color:violet">Name:</span></b></h4> 
+			 <input required type="text" style="height:35px;" id="name-input" 
+			name="name" placeholder="Enter name here" 
+			[(ngModel)]="contactform.name"
+			class="form-control" style="width:100%;" /><br/>
+		
+			<h4><b><span style="color:violet">Phone:</span></b></h4> 
+			<input required type="phone" style="height:35px;" id="phone-input" name="phoneNumber"
+			[(ngModel)]="contactform.phoneNumber"
+			placeholder="Enter phone number" class="form-control" style="width:100%;"/><br/>
+		
+			
+			<h4><b><span style="color:violet">Email:</span></b></h4>
+			<input type="email" style="height:35px;" id="email-input" name="email"
+			[(ngModel)]="contactform.email"
+			placeholder="Enter email here..." class="form-control" style="width:100%;"/><br/>
+		
+			<h4><b><span style="color:violet">How can we help you?</span></b></h4>
+			<textarea id="description-input" rows="3" placeholder="Enter your message..." name="notes"
+			[(ngModel)]="contactform.notes"
+			class="form-control" style="width:100%;"></textarea><br/>
+			
+			<!-- <div class="g-recaptcha" class="form-control" style="width:100%;"></div> -->
+			<button type="button" (click)="submitToAPI()" class="btn btn-lg" style="margin-top:20px;">Submit</button>
+			
+		</form>
+		<div [hidden]="!resp">
+				<h2><b><span style="color:orangered">Successfully msg sent</span></b></h2>
+		</div>

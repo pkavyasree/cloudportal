@@ -1,0 +1,17 @@
+{
+    "projectName": "cloudportal",
+    "version": "2.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "angular",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "dist/cloudportal",
+            "BuildCommand": "npm.cmd run-script build",
+            "StartCommand": "npm start"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}

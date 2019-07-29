@@ -1,0 +1,33 @@
+.image{
+    height:40em; 
+    background-size:cover;
+    width:auto;
+    background-image:url('../../assets/images/unified-cloud.png');
+    background-position:100% 100%;
+    background-repeat: no-repeat;
+  }
+  .container {
+    position: relative;
+    /* text-align: center; */
+    color: white;
+  }
+  .centered {
+    color: deeppink;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #doget {
+    background-color: lightskyblue;
+    height: 260px;
+    padding: 10px 20px 15px 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: Arial;
+    font-size: 24px;
+}
+li{
+  padding-bottom: 0px !important;
+}

@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "cloudportal-20190422134927-authRole",
+            "UnauthRoleArn": "arn:aws:iam::907060066807:role/cloudportal-20190422134927-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::907060066807:role/cloudportal-20190422134927-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "cloudportal-20190422134927-deployment",
+            "UnauthRoleName": "cloudportal-20190422134927-unauthRole",
+            "StackName": "cloudportal-20190422134927",
+            "StackId": "arn:aws:cloudformation:us-east-1:907060066807:stack/cloudportal-20190422134927/595ffd40-64d7-11e9-b0b4-0eb5200d39ae"
+        },
+        "categories": {
+            "auth": {
+                "cognito15d368e6": {}
+            }
+        }
+    }
+}
